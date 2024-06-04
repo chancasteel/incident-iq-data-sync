@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 
 cf = ConfigParser()
-cf.read('/Users/c.casteel/Documents/Python Scipts/iiqdata/config.ini')
+cf.read('config.ini')
 
 IIQ_INSTANCE = cf.get('IncidentIQ', 'Instance')
 IIQ_TOKEN = cf.get('IncidentIQ', 'Token')
